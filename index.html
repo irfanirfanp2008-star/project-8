@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieHub Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="layout">
+    <section class="sidebar">
+        <div class="logodiv">
+            <span class="logo"><i class="fa-solid fa-burger"></i></span>
+            <div class="logoname">
+                <h1 class="lname">Foodie</h1><h1 class="lnamet"> Hub</h1>
+            </div>
+            <h3 class="dname">Restorent Manager</h3>
+        </div>
+
+        <div class="fsidebutton">
+            <div class="sidehouse">
+                <div class="bthouse">
+                    <span class="houseicon"><i class="fa-solid fa-house"></i></span>
+                    <h3 class="housec">Dashboard</h3>
+                </div>
+            </div>
+
+            <div class="sidehousen">
+                <div class="bthouse">
+                    <span class="houseicon"><i class="fa-solid fa-utensils"></i></span>
+                    <h3 class="housec">Food Menu</h3>
+                </div>
+            </div>
+
+            <div class="sidehousen">
+                <div class="bthouse">
+                    <span class="houseicon"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <h3 class="housec">Orders</h3>
+                </div>
+            </div>
+
+            <div class="sidehousen">
+                <div class="bthouse">
+                    <span class="houseicon"><i class="fa-solid fa-user-group"></i></span>
+                    <h3 class="housec">Customer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mainc">
+
+        <div class="welcmes">
+            <h2 class="welcmet">Welcome back,</h2>
+            <h2 class="welcmesn">Admin</h2>
+
+            <div class="topright">
+                <i class="fa-solid fa-bell"></i>
+                <div class="line"></div>
+                <img src="https://i.pinimg.com/474x/72/3b/b2/723bb274a2c98c4e0c19d04379113dfe.jpg" class="profileimg">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                    <span class="icon1"><i class="fa-solid fa-cart-shopping"></i></span>                <div>
+                    <h3>Total Orders</h3>
+                    <h2>125</h2>
+                    <p><i class="fa-solid fa-arrow-up"></i> +12%</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="icon2"><i class="fa-regular fa-clock"></i></span>
+                <div>
+                    <h3>Pending Orders</h3>
+                    <h2>28</h2>
+                    <p><i class="fa-solid fa-arrow-up"></i> +5%</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="icon3"><i class="fa-solid fa-check"></i></span>
+                <div>
+                    <h3>Completed Orders</h3>
+                    <h2>97</h2>
+                    <p><i class="fa-solid fa-arrow-up"></i> +10%</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="icon4"><i class="fa-solid fa-indian-rupee-sign"></i></span>
+                <div>
+                    <h3>Total Revenue</h3>
+                    <h2>₹25,850</h2>
+                    <p><i class="fa-solid fa-arrow-up"></i> +15%</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="foodbox">
+
+            <div class="foodtop">
+                <h2>Food Menu</h2>
+
+                <div class="foodright">
+                    <div class="searchbox">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="search" placeholder="Search Food Items..">
+                    </div>
+                    <button class="addbtn">+ Add Food Item</button>
+                </div>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Food Image</th>
+                    <th>Food Name</th>
+                    <th>Food ID</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td><img class="foodimg" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200"></td>
+                    <td>Cheesy Pizza</td>
+                    <td>F001</td>
+                    <td>Pizza</td>
+                    <td>₹299</td>
+                    <td>Available</td>
+                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td><img class="foodimg" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200"></td>
+                    <td>Classic Burger</td>
+                    <td>F002</td>
+                    <td>Burger</td>
+                    <td>₹199</td>
+                    <td>Available</td>
+                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td><img class="foodimg" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=200"></td>
+                    <td>Creamy Pasta</td>
+                    <td>F003</td>
+                    <td>Pasta</td>
+                    <td>₹249</td>
+                    <td>Available</td>
+                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td><img class="foodimg" src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200"></td>
+                    <td>French Fries</td>
+                    <td>F004</td>
+                    <td>Snacks</td>
+                    <td>₹99</td>
+                    <td>Out of stock</td>
+                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="orderbox">
+
+            <div class="ordertop">
+                <h2>Recent Orders</h2>
+                <button class="viewbtn">View All Orders</button>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Food Item</th>
+                    <th>Amount</th>
+                    <th>Order Status</th>
+                </tr>
+
+                <tr>
+                    <td>#ORD001</td>
+                    <td>Joseph</td>
+                    <td>Pizza, Coke</td>
+                    <td>₹349</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td>#ORD002</td>
+                    <td>Billie Eilish</td>
+                    <td>Burger, Fries</td>
+                    <td>₹299</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td>#ORD003</td>
+                    <td>Peter</td>
+                    <td>Pasta, Garlic Bread</td>
+                    <td>₹399</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td>#ORD004</td>
+                    <td>Shashi</td>
+                    <td>Burger</td>
+                    <td>₹199</td>
+                    <td>Completed</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </section>
+    </div>
+
+</body>
+</html>

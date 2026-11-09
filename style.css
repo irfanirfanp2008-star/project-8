@@ -1,0 +1,309 @@
+
+body{
+    margin: 0%;
+}
+
+.layout {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.sidebar{
+    width: 200px;
+    min-height: 100vh;
+    background-color: black;
+    margin: 0%;
+    flex-shrink: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 133, 40);
+    font-size: 80px;
+    padding-top: 50px;
+}
+
+.logoname{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 0px
+}
+
+.logodiv{
+    justify-items: center;
+}
+
+.lname{
+    color: white;
+    margin: 0%;
+    font-weight: 800;
+}
+
+.lnamet{
+    color: white;
+    margin: 0%;
+    color: rgb(255, 133, 40);
+}
+
+.dname{
+    color: white;
+    margin: 0%;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.sidehouse{
+    background-color: rgb(255, 133, 40);
+    width: 120px;
+    padding: 8px 20px;
+    margin-top: 50px;
+    border-radius: 8PX;
+}
+
+.sidehousen{
+    width: 125px;
+    border-radius: 8PX;
+    margin-top: 20px;
+}
+
+.fsidebutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bthouse{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.houseicon{
+    color: white;
+    margin: 0%;
+}
+
+.housec{
+    color: white;
+    margin: 0%;
+}
+
+.welcmes{
+    margin-top: 0%;
+}
+
+.mainc {
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.welcmes {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.welcmet {
+    margin: 0%;
+}
+
+.welcmesn {
+    margin: 0%;
+    color: rgb(255, 133, 40);
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    font-size: 20px;
+    color: black;
+}
+.profileimg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.line {
+    height: 25px;
+    border-left: 1px solid #ccc;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card:nth-child(1) {
+    background-color: #ffdcc3;
+}
+
+.card:nth-child(2) {
+    background-color: #ffe9c9;
+}
+
+.card:nth-child(3) {
+    background-color: #dcf5e5;
+}
+
+.card:nth-child(4) {
+    background-color: #dceeff;
+}
+
+.card span {
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.icon1 {
+    background-color: rgb(255, 133, 40);
+}
+
+.icon2 {
+    background-color: rgb(255, 170, 70);
+}
+
+.icon3 {
+    background-color: rgb(40, 170, 100);
+}
+
+.icon4 {
+    background-color: rgb(60, 140, 220);
+}
+
+.card h3 {
+    font-size: 15px;
+    margin: 0%;
+}
+
+.card h2 {
+    margin: 5px 0%;
+}
+
+.card p {
+    color: green;
+    margin: 0%;
+}
+
+.foodbox {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.foodtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.foodtop h2 {
+    margin: 0%;
+}
+
+.foodright {
+    display: flex;
+    gap: 10px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: gray;
+}
+
+.search {
+    border: none;
+    outline: none;
+    padding: 0%;
+}
+
+.addbtn {
+    background-color: rgb(255, 133, 40);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background-color: #e5e5e5;
+    padding: 12px;
+}
+
+td {
+    padding: 8px 12px;
+}
+
+.foodimg {
+    width: 75px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.delbtn {
+    background-color: #ffd6d6;
+    color: red;
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.orderbox {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.ordertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ordertop h2 {
+    margin: 0%;
+}
+
+.viewbtn {
+    background-color: white;
+    color: rgb(255, 133, 40);
+    border: 1px solid rgb(255, 133, 40);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
