@@ -143,7 +143,31 @@ body{
     margin-bottom: 25px;
 }
 
-.card {
+.card1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card3 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card4 {
     flex: 1;
     display: flex;
     align-items: center;
@@ -152,23 +176,41 @@ body{
     border-radius: 10px;
 }
 
-.card:nth-child(1) {
-    background-color: #ffdcc3;
+.card1 {
+    background-color: rgb(255, 220, 195);
 }
 
-.card:nth-child(2) {
-    background-color: #ffe9c9;
+.card2 {
+    background-color: rgb(255, 233, 201);
 }
 
-.card:nth-child(3) {
-    background-color: #dcf5e5;
+.card3 {
+    background-color: rgb(220, 245, 229);
 }
 
-.card:nth-child(4) {
-    background-color: #dceeff;
+.card4 {
+    background-color: rgb(220, 238, 255);
 }
 
-.card span {
+.card1 span {
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.card2 span {
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.card3 span {
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.card4 span {
     color: white;
     padding: 15px;
     border-radius: 50%;
@@ -191,16 +233,54 @@ body{
     background-color: rgb(60, 140, 220);
 }
 
-.card h3 {
+.card1 h3 {
     font-size: 15px;
     margin: 0%;
 }
 
-.card h2 {
+.card2 h3 {
+    font-size: 15px;
+    margin: 0%;
+}
+
+.card3 h3 {
+    font-size: 15px;
+    margin: 0%;
+}
+
+.card4 h3 {
+    font-size: 15px;
+    margin: 0%;
+}
+.card1 h2 {
+    margin: 5px 0%;
+}
+.card2 h2 {
+    margin: 5px 0%;
+}
+.card3 h2 {
+    margin: 5px 0%;
+}
+.card4 h2 {
     margin: 5px 0%;
 }
 
-.card p {
+.card1 p {
+    color: green;
+    margin: 0%;
+}
+
+.card2 p {
+    color: green;
+    margin: 0%;
+}
+
+.card3 p {
+    color: green;
+    margin: 0%;
+}
+
+.card4 p {
     color: green;
     margin: 0%;
 }

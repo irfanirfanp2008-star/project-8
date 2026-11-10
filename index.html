@@ -7,6 +7,7 @@
     <title>FoodieHub Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <div class="layout">
@@ -55,7 +56,6 @@
         <div class="welcmes">
             <h2 class="welcmet">Welcome back,</h2>
             <h2 class="welcmesn">Admin</h2>
-
             <div class="topright">
                 <i class="fa-solid fa-bell"></i>
                 <div class="line"></div>
@@ -66,7 +66,7 @@
 
         <div class="cards">
 
-            <div class="card">
+            <div class="card1"> 
                     <span class="icon1"><i class="fa-solid fa-cart-shopping"></i></span>                <div>
                     <h3>Total Orders</h3>
                     <h2>125</h2>
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="card">
+           <div class="card2"> 
                 <span class="icon2"><i class="fa-regular fa-clock"></i></span>
                 <div>
                     <h3>Pending Orders</h3>
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card3"> 
                 <span class="icon3"><i class="fa-solid fa-check"></i></span>
                 <div>
                     <h3>Completed Orders</h3>
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="card">
+           <div class="card4"> 
                 <span class="icon4"><i class="fa-solid fa-indian-rupee-sign"></i></span>
                 <div>
                     <h3>Total Revenue</h3>
@@ -103,7 +103,7 @@
 
         </div>
 
-        <div class="foodbox">
+        <form class="foodbox" id="form">
 
             <div class="foodtop">
                 <h2>Food Menu</h2>
@@ -111,13 +111,13 @@
                 <div class="foodright">
                     <div class="searchbox">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" class="search" placeholder="Search Food Items..">
+                        <input type="search" class="search" placeholder="Search Food Items..">
                     </div>
-                    <button class="addbtn">+ Add Food Item</button>
+                    <button type="submit" class="addbtn">+ Add Food Item</button>
                 </div>
             </div>
 
-            <table>
+            <table id="foodtable">
                 <tr>
                     <th>Food Image</th>
                     <th>Food Name</th>
@@ -135,7 +135,7 @@
                     <td>Pizza</td>
                     <td>₹299</td>
                     <td>Available</td>
-                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                    <td><button type="button" class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
                 </tr>
 
                 <tr>
@@ -145,7 +145,7 @@
                     <td>Burger</td>
                     <td>₹199</td>
                     <td>Available</td>
-                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                    <td><button type="button" class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
                 </tr>
 
                 <tr>
@@ -155,7 +155,7 @@
                     <td>Pasta</td>
                     <td>₹249</td>
                     <td>Available</td>
-                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                    <td><button type="button" class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
                 </tr>
 
                 <tr>
@@ -165,11 +165,23 @@
                     <td>Snacks</td>
                     <td>₹99</td>
                     <td>Out of stock</td>
-                    <td><button class="delbtn"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                    <td><button type="button" class="delbtn" id="Delete" ><i class="fa-solid fa-trash"></i> Delete</button></td>
                 </tr>
+                
+                <!-- <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+                
+
             </table>
 
-        </div>
+        </form>
 
         <div class="orderbox">
 
@@ -224,6 +236,6 @@
 
     </section>
     </div>
-
+    <script src="./script.js"></script>
 </body>
 </html>
